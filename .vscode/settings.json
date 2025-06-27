@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Julia, Fira Code",
+    "editor.codeLensFontFamily": "Julia, Fira Code",
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "vs-minimal"
+}
