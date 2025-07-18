@@ -27,8 +27,8 @@ def main() -> None:
         label = 'P' if prime else ' '
         print(f'{n:16} {label} {elapsed:9.6f}s')
 
-        elapsed = perf_counter() - t0
-        print(f'Total time: {elapsed:.2f}s')
+    elapsed = perf_counter() - t0
+    print(f'Total time: {elapsed:.2f}s')
 
 if __name__ == '__main__':
     main()
