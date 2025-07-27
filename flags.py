@@ -34,4 +34,5 @@ def main(downloader: Callable[list[str], int]) -> None:
     elapsed = time.perf_counter() - t0
     print(f'\n{count} downloads in {elapsed:.2f}s')
 
-main(download_many)
+if __name__ == "__main__":
+    main(download_many)
